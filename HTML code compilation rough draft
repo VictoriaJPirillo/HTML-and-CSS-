@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxe Collection - Designer Accessories</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <h1 class="logo">LUXE COLLECTION</h1>
+            <ul class="nav-menu">
+                <li><a href="#brands">Brands</a></li>
+                <li><a href="#categories">Shop</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2 class="hero-title">Curated Luxury at Your Fingertips</h2>
+            <p class="hero-subtitle">Authentic designer bags, wallets & accessories from the world's most coveted brands</p>
+            <button class="cta-button">Shop Collection</button>
+        </div>
+    </section>
+
+    <!-- Featured Brands -->
+    <section class="brands" id="brands">
+        <h2 class="section-title">Featured Designers</h2>
+        <div class="brand-grid">
+            <div class="brand-card">GUCCI</div>
+            <div class="brand-card">PRADA</div>
+            <div class="brand-card">FENDI</div>
+            <div class="brand-card">COACH</div>
+            <div class="brand-card">BURBERRY</div>
+            <div class="brand-card">MICHAEL KORS</div>
+        </div>
+    </section>
+
+    <!-- Product Categories -->
+    <section class="categories" id="categories">
+        <h2 class="section-title">Shop by Category</h2>
+        <div class="category-container">
+            <div class="category-card">
+                <div class="category-image bags"></div>
+                <h3>Designer Bags</h3>
+                <p>Timeless elegance meets modern style</p>
+                <button class="category-btn">Shop Bags</button>
+            </div>
+            <div class="category-card">
+                <div class="category-image wallets"></div>
+                <h3>Luxury Wallets</h3>
+                <p>Sophistication in every detail</p>
+                <button class="category-btn">Shop Wallets</button>
+            </div>
+            <div class="category-card">
+                <div class="category-image keyfobs"></div>
+                <h3>Designer Keyfobs</h3>
+                <p>Small luxuries, big impact</p>
+                <button class="category-btn">Shop Keyfobs</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter">
+        <h2>Join Our VIP List</h2>
+        <p>Get exclusive access to new arrivals and special offers</p>
+        <form class="newsletter-form">
+            <input type="email" placeholder="Enter your email" class="email-input">
+            <button type="submit" class="submit-btn">Subscribe</button>
+        </form>
+    </section>
+</body>
+</html>
